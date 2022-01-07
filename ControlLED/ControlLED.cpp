@@ -1,7 +1,7 @@
 #include <iostream>
 #include <wiringPi.h>
 
-#define LED1 11 // GPIO 17
+#define LED1 17
 
 int main()
 {
