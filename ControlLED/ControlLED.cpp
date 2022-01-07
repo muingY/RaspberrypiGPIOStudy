@@ -20,7 +20,7 @@ int main()
         digitalWrite(LED1, 1);
         delay(500);
         digitalWrite(LED1, 0);
-		delay(500);
+        delay(500);
     }
 
     return 0;
