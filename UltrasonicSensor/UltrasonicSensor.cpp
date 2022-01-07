@@ -40,7 +40,7 @@ int main()
         /*
         * [Why devide 58?]
         * Sound speed on 1 atm is 340 m/s. This is same 29 microsecond/cm.
-        * We have to consideration about total distance, include echo back.
+        * We have to consider the total distance the pulse has progressed, include echo back.
         *   58 = 29 * 2
         */
         distance = (e - s) / 58;
