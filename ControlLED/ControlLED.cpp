@@ -7,6 +7,12 @@ int main()
 {
     std::cout << "<GPIO Study 01>" << std::endl << ": Control LED." << std::endl;
 
+    if (wiringPiSetup() == -1)
+    {
+        std::cout << "ERROR! wiringPiSetup fail." << std::endl;
+        return -1;
+    }
+
     pinMode(LED1, OUTPUT);
 
     while (true)
