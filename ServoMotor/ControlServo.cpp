@@ -18,11 +18,11 @@ int main()
 
     while (true)
     {
-        softPwmWrite(PIN_SERVO, 15);
+        softPwmWrite(PIN_SERVO, 15); // 0 degree
         delay(1000);
-        softPwmWrite(PIN_SERVO, 24);
+        softPwmWrite(PIN_SERVO, 24); // 90 degree
         delay(1000);
-        softPwmWrite(PIN_SERVO, 5);
+        softPwmWrite(PIN_SERVO, 5); // -90 degree
         delay(1000);
     }
 
