@@ -45,7 +45,7 @@ int main()
         */
         distance = (e - s) / 58;
         std::cout << "Distance(cm) = " << distance << "cm" << std::endl;
-        delay(100);
+        delay(500);
     }
 
     return 0;
