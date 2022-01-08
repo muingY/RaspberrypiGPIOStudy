@@ -19,8 +19,8 @@ int main()
     pinMode(PIN_ULTRASONIC_TRIG, OUTPUT);
     pinMode(PIN_ULTRASONIC_ECHO, INPUT);
 
-    float distance;
-    float s, e;
+    double distance;
+    double s, e;
 
     while (true)
     {
